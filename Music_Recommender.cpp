@@ -55,7 +55,7 @@ void RekomendasiMusik(int pilihan) {
         {"Lo-fi / Chill", "Membantu menenangkan pikiran yang kacau.", 
             {"Lofi Girl - chill lofi beats", "Nujabes - Aruarian Dance", "Jinsang - Affection"}},
         
-        {"Instrumental / Classical", "Meningkatkan konsentrasi, cocok untuk persiapan kelas Pemrograman Terstruktur di hari Senin 10:40 atau Selasa 07:00.", 
+        {"Instrumental / Classical", "Meningkatkan konsentrasi, cocok untuk persiapan kelas Pemrograman Terstruktur di hari Senin 10:40.", 
             {"Hans Zimmer - Interstellar", "Ludovico Einaudi - Experience", "Beethoven - Moonlight Sonata"}},
         
         {"Jazz / Relaxing", "Membantu tubuh dan pikiran lebih rileks.", 
