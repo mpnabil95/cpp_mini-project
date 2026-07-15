@@ -72,7 +72,7 @@ void RekomendasiMusik(int pilihan) {
     int index = pilihan - 1;
     int random_song_index = rand() % 3;
     
-    // UPDATE 3: Menyimpan lagu yang terpilih ke dalam variabel agar bisa dikirim ke fungsi SimpanHistory
+    // Menyimpan lagu yang terpilih ke dalam variabel agar bisa dikirim ke fungsi SimpanHistory
     string lagu_terpilih = database[index].daftar_lagu[random_song_index];
 
     cout << "\n🎧 Rekomendasi Musik:\n";
