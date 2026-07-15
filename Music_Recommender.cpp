@@ -21,7 +21,7 @@ void SimpanHistory(string mood, string lagu) {
         // Mengambil waktu saat ini dari sistem
         time_t now = time(0);
         string waktu = ctime(&now);
-        waktu.pop_back(); // Menghapus karakter 'enter' (newline) bawaan dari fungsi ctime() agar rapi
+        waktu.pop_back();
         
         // Format penulisan ke file diperbarui
         file << "[" << waktu << "] Mood: " << mood << " | Rekomendasi Lagu: " << lagu << "\n";
