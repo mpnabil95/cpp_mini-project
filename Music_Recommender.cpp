@@ -13,7 +13,7 @@ struct MoodData {
     string daftar_lagu[3]; 
 };
 
-// UPDATE 1: Fungsi sekarang menerima parameter tambahan 'lagu'
+// Fungsi sekarang menerima parameter tambahan 'lagu'
 void SimpanHistory(string mood, string lagu) {
     ofstream file("history_mood.txt", ios::app); 
     
