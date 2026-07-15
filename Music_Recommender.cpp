@@ -23,7 +23,7 @@ void SimpanHistory(string mood, string lagu) {
         string waktu = ctime(&now);
         waktu.pop_back(); // Menghapus karakter 'enter' (newline) bawaan dari fungsi ctime() agar rapi
         
-        // UPDATE 2: Format penulisan ke file diperbarui
+        // Format penulisan ke file diperbarui
         file << "[" << waktu << "] Mood: " << mood << " | Rekomendasi Lagu: " << lagu << "\n";
         file.close();
     } else {
